@@ -1,0 +1,10 @@
+AWS:TemplateFormatVersion: '2010-09-09'
+
+# Definimos los recursos que vamos a utilizar
+
+Resources:
+    # Definimos el bucket
+    MyFirstBucket:
+        Type: 'AWS::S3::Bucket'
+        Properties:
+          BucketName: 'my-first-bucket-aws'
